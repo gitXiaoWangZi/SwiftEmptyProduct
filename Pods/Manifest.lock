@@ -1,0 +1,117 @@
+PODS:
+  - Alamofire (5.6.2)
+  - CropViewController (2.6.1)
+  - DKCamera (1.6.7)
+  - DKImagePickerController (4.3.4):
+    - DKImagePickerController/Camera (= 4.3.4)
+    - DKImagePickerController/Core (= 4.3.4)
+    - DKImagePickerController/ImageDataManager (= 4.3.4)
+    - DKImagePickerController/InlineCamera (= 4.3.4)
+    - DKImagePickerController/PhotoEditor (= 4.3.4)
+    - DKImagePickerController/PhotoGallery (= 4.3.4)
+    - DKImagePickerController/Resource (= 4.3.4)
+  - DKImagePickerController/Camera (4.3.4):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.3.4):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.4)
+  - DKImagePickerController/InlineCamera (4.3.4):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.3.4):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.3.4):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.4)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (7.3.2)
+  - PKHUD (5.3.0)
+  - PullToRefreshKit (0.8.8)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SnapKit (5.6.0)
+  - SwiftyGif (5.4.3)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.0.1)
+  - ZLPhotoBrowser (4.3.5):
+    - ZLPhotoBrowser/Core (= 4.3.5)
+  - ZLPhotoBrowser/Core (4.3.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - DKImagePickerController
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 7.0)
+  - PKHUD (~> 5.0)
+  - PullToRefreshKit
+  - SnapKit
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.0.1)
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CropViewController
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - PKHUD
+    - PullToRefreshKit
+    - SDWebImage
+    - SnapKit
+    - SwiftyGif
+    - SwiftyJSON
+    - Toast-Swift
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
+  DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  ZLPhotoBrowser: 329ce19ac36da8fa9a163e878f88479bf1a11461
+
+PODFILE CHECKSUM: 226cea553f08f663cd15fcf6b4b4d70c3de21bc4
+
+COCOAPODS: 1.11.3
